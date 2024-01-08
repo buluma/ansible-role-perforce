@@ -87,7 +87,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/.cache/pip
-          key: tox-${{ hashFiles('requirements/tox.txt') }}-py${{ steps.setup-python.outputs.python-version}}
+          key: tox-${{ hashFiles('**/requirements.txt') }}-py${{ steps.setup-python.outputs.python-version}}
 
       - name: Molecule cache
         id: molecule-cache

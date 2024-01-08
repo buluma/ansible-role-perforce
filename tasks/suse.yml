@@ -28,10 +28,10 @@
 - name: suse | Zypper install
   vars:
     ansible_python_interpreter: "python3"
-  ansible.builtin.zypper:
+  community.general.zypper:
     name: "{{ item.name }}"
     state: "{{ item.state }}"
-    extra_args: "--allow-vendor-change"
+    force_resolution: true
   loop: "{{ _zypper }}"
   register: result
   until: result is succeeded

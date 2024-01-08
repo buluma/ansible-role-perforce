@@ -1,4 +1,5 @@
 ---
+
 _rpm_key:
   - key: "http://package.perforce.com/perforce.pubkey"
     fingerprint: "E58131C0AEA7B082C6DC4C937123CB760FF18869"
@@ -16,5 +17,5 @@ _yum_repository:
     gpgkey: "http://package.perforce.com/perforce.pubkey"
     state: "present"
 
-_zypper:
+_yum:
   - { state: "latest", name: "helix-cli" }

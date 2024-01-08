@@ -16,5 +16,5 @@ _yum_repository:
     gpgkey: "http://package.perforce.com/perforce.pubkey"
     state: "present"
 
-_zypper:
+_yum:
   - { state: "latest", name: "helix-cli" }

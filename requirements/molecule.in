@@ -1,4 +1,9 @@
-ansible-compat<4
+ansible-compat == 4.*
+molecule == 6.*
+molecule-plugins[docker] == 23.*
+ansible-lint == 6.*
+paramiko == 3.*
+# ansible-compat<4
 molecule[docker]==4.0.4
 testinfra==5.3.1
 # TODO: Remove; Fix https://github.com/docker/docker-py/issues/3113

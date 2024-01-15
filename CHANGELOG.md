@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.0](https://github.com/buluma/ansible-role-perforce/tree/0.2.0) (2024-01-10)
+
+[Full Changelog](https://github.com/buluma/ansible-role-perforce/compare/0.1.2...0.2.0)
+
 ## [0.1.2](https://github.com/buluma/ansible-role-perforce/tree/0.1.2) (2022-05-13)
 
 [Full Changelog](https://github.com/buluma/ansible-role-perforce/compare/0.1.1...0.1.2)

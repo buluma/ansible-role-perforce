@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-perforce/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-perforce/compare/0.2.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/cache from 3 to 4 [\#9](https://github.com/buluma/ansible-role-perforce/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.2.0](https://github.com/buluma/ansible-role-perforce/tree/0.2.0) (2024-01-10)
 
 [Full Changelog](https://github.com/buluma/ansible-role-perforce/compare/0.1.2...0.2.0)

@@ -1,7 +1,4 @@
 ---
-- name: Include default variables
-  ansible.builtin.include_vars: "../vars/main.yml"
-
 - name: Include release specific variables
   ansible.builtin.include_vars: "{{ _loop_var }}"
   loop: "{{ query('first_found', _params) }}"

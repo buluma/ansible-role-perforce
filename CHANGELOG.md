@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-perforce/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-perforce/compare/24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#16](https://github.com/buluma/ansible-role-perforce/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-perforce/tree/24.3.31) (2024-03-31)
 
 [Full Changelog](https://github.com/buluma/ansible-role-perforce/compare/0.3.0...24.3.31)

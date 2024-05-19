@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/dependabot-auto-merge-action from 2.1.3 to 2.1.4 [\#17](https://github.com/buluma/ansible-role-perforce/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#16](https://github.com/buluma/ansible-role-perforce/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-perforce/tree/24.3.31) (2024-03-31)

@@ -7,7 +7,6 @@
 **Merged pull requests:**
 
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.4 [\#18](https://github.com/buluma/ansible-role-perforce/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump buluma/dependabot-auto-merge-action from 2.1.3 to 2.1.4 [\#17](https://github.com/buluma/ansible-role-perforce/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#16](https://github.com/buluma/ansible-role-perforce/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-perforce/tree/24.3.31) (2024-03-31)
@@ -28,6 +27,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/dependabot-auto-merge-action from 2.1.3 to 2.1.4 [\#17](https://github.com/buluma/ansible-role-perforce/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/cache from 3 to 4 [\#9](https://github.com/buluma/ansible-role-perforce/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#8](https://github.com/buluma/ansible-role-perforce/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
 

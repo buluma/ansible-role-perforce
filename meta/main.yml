@@ -1,5 +1,4 @@
 ---
-
 galaxy_info:
   namespace: buluma
   role_name: perforce
@@ -11,10 +10,7 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
-        - focal
-        - bionic
-        - jammy
-        - lunar
+        - all
     - name: EL
       versions:
         - all

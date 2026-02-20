@@ -5,4 +5,4 @@
 repository:
   description: Install and Configure Perforce on your systems.
   homepage: https://buluma.github.io/
-  topics: system, ansible, molecule, tox, playbook
+  topics: system, ansible, molecule, playbook

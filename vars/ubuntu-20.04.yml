@@ -1,5 +1,4 @@
 ---
-
 _apt_key:
   - keyring: "/etc/apt/trusted.gpg.d/perforce.gpg"
     url: "http://package.perforce.com/perforce.pubkey"

@@ -12,28 +12,27 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-
-- hosts: all
-  remote_user: root
-  become: true
-  tasks:
-    - name: include role
-      ansible.builtin.include_role:
-        name: buluma.perforce
-      tags: buluma.perforce
+  - hosts: all
+    remote_user: root
+    become: true
+    tasks:
+      - name: include role
+        ansible.builtin.include_role:
+          name: buluma.perforce
+        tags: buluma.perforce
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-perforce/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-- name: prepare
-  hosts: all
-  become: yes
-  gather_facts: no
+  - name: prepare
+    hosts: all
+    become: yes
+    gather_facts: no
 
-  roles:
-    - role: buluma.bootstrap
+    roles:
+      - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -44,20 +43,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 
 ```yaml
 ---
-
-# (c) Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+...
 ```
 
 ## [Requirements](#requirements)

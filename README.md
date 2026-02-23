@@ -12,27 +12,27 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - hosts: all
-    remote_user: root
-    become: true
-    tasks:
-      - name: include role
-        ansible.builtin.include_role:
-          name: buluma.perforce
-        tags: buluma.perforce
+- hosts: all
+  remote_user: root
+  become: true
+  tasks:
+  - name: include role
+    ansible.builtin.include_role:
+      name: buluma.perforce
+    tags: buluma.perforce
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-perforce/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: prepare
-    hosts: all
-    become: yes
-    gather_facts: no
+- name: prepare
+  hosts: all
+  become: yes
+  gather_facts: no
 
-    roles:
-      - role: buluma.bootstrap
+  roles:
+  - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.

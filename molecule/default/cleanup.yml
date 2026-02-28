@@ -4,12 +4,12 @@
   become: true
   gather_facts: false
   tasks:
-  - name: redhat | subscription-manager unregister
-    ansible.builtin.raw: |
-      set -eu
-      subscription-manager remove --all
-      subscription-manager unregister
-      subscription-manager clean
-    when: inventory_hostname != ansible_host
-    changed_when: false
-    failed_when: false
+    - name: redhat | Subscription-manager unregister
+      ansible.builtin.raw: |
+        set -eu
+        subscription-manager remove --all
+        subscription-manager unregister
+        subscription-manager clean
+      when: inventory_hostname != ansible_host
+      changed_when: false
+      failed_when: false

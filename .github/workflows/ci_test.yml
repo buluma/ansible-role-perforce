@@ -30,7 +30,7 @@ jobs:
       uses: actions/cache@v5
       with:
         path: ~/.cache/pip
-        key: tox-${{ hashFiles('requirements/tox.txt') }}-py${{ 
+        key: tox-${{ hashFiles('requirements/tox.txt') }}-py${{
           steps.setup-python.outputs.python-version}}
 
     - name: Lint cache
@@ -38,7 +38,7 @@ jobs:
       uses: actions/cache@v5
       with:
         path: .tox
-        key: lint-${{ hashFiles('requirements/lint.txt') }}-py${{ 
+        key: lint-${{ hashFiles('requirements/lint.txt') }}-py${{
           steps.setup-python.outputs.python-version}}
 
     - name: Install tox
@@ -90,7 +90,7 @@ jobs:
       uses: actions/cache@v5
       with:
         path: ~/.cache/pip
-        key: tox-${{ hashFiles('**/requirements.txt') }}-py${{ 
+        key: tox-${{ hashFiles('**/requirements.txt') }}-py${{
           steps.setup-python.outputs.python-version}}
 
     - name: Molecule cache
@@ -98,15 +98,15 @@ jobs:
       uses: actions/cache@v5
       with:
         path: .tox
-        key: molecule-${{ hashFiles(format('requirements/ansible-{0}.txt', 
-          matrix.ansible-version)) }}-py${{ 
+        key: molecule-${{ hashFiles(format('requirements/ansible-{0}.txt',
+          matrix.ansible-version)) }}-py${{
           steps.setup-python.outputs.python-version}}
 
     - name: Install tox
       run: pip3 install --no-compile -r requirements/tox.txt
 
     - name: Molecule test
-      run: tox --colored=yes run -e ansible-${{ matrix.ansible-version }} -- 
+      run: tox --colored=yes run -e ansible-${{ matrix.ansible-version }} --
         --scenario-name=${{ matrix.molecule-scenario }}
 
     - name: Compact Molecule cache

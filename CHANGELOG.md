@@ -6,9 +6,12 @@
 
 **Merged pull requests:**
 
+- Bump buluma/molecule-action from 24.2.0 to 24.6.17 [\#20](https://github.com/buluma/ansible-role-perforce/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.4 [\#19](https://github.com/buluma/ansible-role-perforce/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.4 [\#18](https://github.com/buluma/ansible-role-perforce/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.3 to 2.1.4 [\#17](https://github.com/buluma/ansible-role-perforce/pull/17) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.2 to 2.1.3 [\#16](https://github.com/buluma/ansible-role-perforce/pull/16) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump dependabot/fetch-metadata from 1 to 2 [\#15](https://github.com/buluma/ansible-role-perforce/pull/15) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-perforce/tree/24.3.31) (2024-03-31)
 
@@ -19,7 +22,6 @@
 - Bump release-drafter/release-drafter from 5 to 6 [\#14](https://github.com/buluma/ansible-role-perforce/pull/14) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#13](https://github.com/buluma/ansible-role-perforce/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#12](https://github.com/buluma/ansible-role-perforce/pull/12) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Bump release-drafter/release-drafter from 5 to 6 [\#11](https://github.com/buluma/ansible-role-perforce/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#10](https://github.com/buluma/ansible-role-perforce/pull/10) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [0.3.0](https://github.com/buluma/ansible-role-perforce/tree/0.3.0) (2024-01-20)
@@ -28,6 +30,7 @@
 
 **Merged pull requests:**
 
+- Bump release-drafter/release-drafter from 5 to 6 [\#11](https://github.com/buluma/ansible-role-perforce/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/cache from 3 to 4 [\#9](https://github.com/buluma/ansible-role-perforce/pull/9) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#8](https://github.com/buluma/ansible-role-perforce/pull/8) ([dependabot[bot]](https://github.com/apps/dependabot))
 

@@ -3,7 +3,7 @@
   remote_user: root
   become: true
   tasks:
-  - name: include role
-    ansible.builtin.include_role:
-      name: buluma.perforce
-    tags: buluma.perforce
+    - name: include role
+      ansible.builtin.include_role:
+        name: buluma.perforce
+      tags: buluma.perforce

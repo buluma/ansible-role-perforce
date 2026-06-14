@@ -1,10 +1,9 @@
 ---
-- name: debian | Apt-key add
-  ansible.builtin.apt_key:
-    keyring: "{{ item.keyring }}"
+- name: debian | Download Apt keys
+  ansible.builtin.get_url:
     url: "{{ item.url }}"
-    id: "{{ item.id }}"
-    state: "{{ item.state }}"
+    dest: "{{ item.keyring | replace('.gpg', '.asc') }}"
+    mode: "0644"
   loop: "{{ _apt_key }}"
   register: result
   until: result is succeeded

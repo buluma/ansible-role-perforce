@@ -1,9 +1,10 @@
 ---
-- hosts: all
+- name: Verify
+  hosts: all
   remote_user: root
   become: true
   tasks:
-    - name: p4 -V
+    - name: P4 -V
       ansible.builtin.shell: |
         set -euxo pipefail
         p4 -V

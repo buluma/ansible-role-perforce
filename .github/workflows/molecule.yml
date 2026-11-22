@@ -45,11 +45,6 @@ jobs:
       matrix:
         distro:
           - image: "docker-molecule-images"
-            tag: "centos7"
-          - image: "docker-molecule-images"
-            tag: "opensuse156"
-            command: "/sbin/init"
-          - image: "docker-molecule-images"
             tag: "rockylinux10"
           - image: "docker-molecule-images"
             tag: "almalinux10"
@@ -111,4 +106,3 @@ jobs:
           ANSIBLE_ROLES_PATH: ~/.ansible/roles:${GITHUB_WORKSPACE}/ansible-role-perforce
           image: ${{ matrix.distro.image }}
           tag: ${{ matrix.distro.tag }}
-          container_command: ${{ matrix.distro.command || '/lib/systemd/systemd' }}

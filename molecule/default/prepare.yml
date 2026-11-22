@@ -5,14 +5,6 @@
   gather_facts: false
 
   pre_tasks:
-    - name: Use archived repositories for the CentOS 7 test image
-      ansible.builtin.raw: >-
-        if [ -f /etc/centos-release ] && grep -q 'release 7\.' /etc/centos-release; then
-          sed -i -e 's/^mirrorlist=/#mirrorlist=/' -e 's|^#baseurl=http://mirror.centos.org/centos/\$releasever/|baseurl=https://vault.centos.org/7.9.2009/|' /etc/yum.repos.d/CentOS-Base.repo;
-        fi
-      become: false
-      changed_when: false
-
     - name: Install sudo if missing
       ansible.builtin.raw: "{{ ansible_pkg_mgr | default('dnf') }} install -y sudo"
       become: false

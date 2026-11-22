@@ -16,7 +16,7 @@ driver:
 platforms:
   - name: "perforce-${image:-fedora}-${tag:-latest}"
     image: "${namespace:-buluma}/${image:-fedora}:${tag:-latest}"
-    command: "${container_command:-/lib/systemd/systemd}"
+    command: /lib/systemd/systemd
     cgroupns_mode: host
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:rw
